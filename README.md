@@ -52,9 +52,11 @@ cat < file2
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/fe022908-c0d6-4750-a3af-08e4f0928dcb)
 
 comm file1 file2
  ## OUTPUT
+![image](https://github.com/user-attachments/assets/4e232ce9-64ca-4bde-9d12-5f98108d8346)
 
  
 diff file1 file2

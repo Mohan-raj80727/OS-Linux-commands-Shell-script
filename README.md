@@ -42,17 +42,17 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/1bb3120c-1238-4920-a7ea-2ec3150d32b4)
 
 cat < file2
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/af32b9fb-66a8-4474-b17b-d75b9b7926d4)
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+
 comm file1 file2
  ## OUTPUT
 

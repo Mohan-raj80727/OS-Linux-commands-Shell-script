@@ -58,10 +58,9 @@ comm file1 file2
  ## OUTPUT
 ![image](https://github.com/user-attachments/assets/4e232ce9-64ca-4bde-9d12-5f98108d8346)
 
- 
 diff file1 file2
 ## OUTPUT
-
+![image](https://github.com/user-attachments/assets/16204101-b55b-4a1c-835f-9bb417dfac40)
 
 #Filters
 
@@ -81,21 +80,17 @@ cat > file22
 ^d
 ```
 
-
 cut -c1-3 file11
 ## OUTPUT
-
-
-
+![image](https://github.com/user-attachments/assets/00c489fe-0939-43f2-b5cf-f571c047250d)
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/eef254a6-6aa9-4363-986d-af6a4e32503b)
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-
+![image](https://github.com/user-attachments/assets/b78a2f7e-6686-4576-a855-78896122233d)
 
 cat < newfile 
 ```
@@ -109,40 +104,31 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/2572e17d-61ce-47f1-b253-d351109263a8)
 
 grep hello newfile 
 ## OUTPUT
-
-
-
+![image](https://github.com/user-attachments/assets/1ee46c9f-b7df-4ecf-913c-0aea790402f6)
 
 grep -v hello newfile 
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/6a8b672b-5c17-41d6-840d-ad8af4cb25e7)
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-
-
-
+![image](https://github.com/user-attachments/assets/d7ff3b27-3730-4c8e-b763-fed7469c7cc2)
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-
-
-
+![image](https://github.com/user-attachments/assets/31eda373-42d7-403e-93b8-3942a6f8823a)
 
 grep -R ubuntu /etc
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/8dde9438-13f6-4e9c-9ab6-1cd908c51940)
 
 grep -w -n world newfile   
 ## OUTPUT
-
+![image](https://github.com/user-attachments/assets/9c65ea2b-f5ad-4a02-88fd-03ed6741c893)
 
 cat < newfile 
 ```
@@ -165,32 +151,27 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/c39fda35-314c-4fd4-a263-9803cc1aaaf3)
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/eed0c643-a36c-44ea-a416-38dcf24bfd94)
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-
-
-
+![image](https://github.com/user-attachments/assets/2407a2da-bc0d-4dd0-8551-76e5a0ea5e05)
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/44050480-107a-4e3f-8ade-bc1ac9627d95)
 
 egrep '(world$)' newfile 
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/93889252-1369-46d2-b8d9-e0e3fd509f7b)
 
 egrep '(World$)' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/f7e818eb-8ce4-4f31-af9e-3749c6a32b5e)
 
 
 egrep '((W|w)orld$)' newfile 

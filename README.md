@@ -173,33 +173,29 @@ egrep '(World$)' newfile
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/f7e818eb-8ce4-4f31-af9e-3749c6a32b5e)
 
-
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/ad4c2dde-1e04-4590-8929-0b97142b2864)
 
 egrep '[1-9]' newfile 
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/de1e8d0a-93fd-4d58-9be3-12cc208f55b8)
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
-
+![image](https://github.com/user-attachments/assets/7a6fdf4f-3c6b-4b40-b396-42e1802f79dc)
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-
+![image](https://github.com/user-attachments/assets/8bd1e9ba-19d7-4fff-9ad9-e2bd30746e97)
 
 egrep l{2} newfile
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/40fa2653-6700-4f6a-8f8b-719e562b415f)
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
-
+![image](https://github.com/user-attachments/assets/1d2b3a5e-6409-474f-8be0-b21192414c1f)
 
 cat > file23
 ```
@@ -217,80 +213,66 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/14ceb3c8-6905-4c47-a233-72552615d761)
 
 sed -n -e '$p' file23
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/7084c57b-3cbc-4397-a455-4962d6372bfe)
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/6cf2d482-f1e5-4271-bd04-352fd9c85d62)
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/cce0ae77-a28f-4322-b316-c54d3eeea180)
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/2598f70d-bee9-4e49-8bdc-e97761ce74a5)
 
 sed -n -e '1,5p' file23
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/d70d7409-ec60-4000-ac14-8c6079528a09)
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
-
-
-
+![image](https://github.com/user-attachments/assets/0ed148ba-7d73-46fc-ad9a-c2d87300c415)
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/5432ce87-44fd-42cc-9e5d-7cdfc31739b2)
 
 seq 10 
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/fea8e390-8ae0-4a90-a28e-8d2b2c2c4c76)
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/5fae905a-ba24-4765-8c93-def41c9264b4)
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/44312c45-a1f5-4c19-a82c-79e3f0d6d171)
 
 seq 3 | sed '2a hello'
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/76cd1775-4b5d-485c-a622-3de51dad01b4)
 
 seq 2 | sed '2i hello'
 ## OUTPUT
-
+![image](https://github.com/user-attachments/assets/9c38dd7b-fef7-4d2e-8791-caef77ced470)
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
-
+![image](https://github.com/user-attachments/assets/39431da3-26f8-47ee-98eb-1e818f80398e)
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/28da254d-8c2f-4fb9-bb7c-e678a52d4b8f)
 
 sed -n '2,4{s/$/*/;p}' file23
-
+![image](https://github.com/user-attachments/assets/c1640cd5-0eda-4c6b-9eb7-cc4c06a9868e)
 
 #Sorting File content
 cat > file21
@@ -303,7 +285,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-
+![image](https://github.com/user-attachments/assets/5db50e6c-391d-4ba8-a38f-93846e4eba4c)
 
 cat > file22
 ```
@@ -316,13 +298,13 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/de81f100-b407-4b5d-a3c4-e564b3d9b3b2)
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+![image](https://github.com/user-attachments/assets/8ba44fdd-6db2-4a8a-8768-397d16d1fb43)
 
 cat < urllist.txt
 ```
@@ -339,18 +321,16 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/b0f4cf88-27be-4ead-80f7-08225513dd8a)
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/9b25a0f1-e752-4909-8598-82e5eb880ad4)
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-
+![image](https://github.com/user-attachments/assets/7f0aa5d5-785d-4c8e-949c-d1d879c66bef)
 
 mkdir backupdir
  
